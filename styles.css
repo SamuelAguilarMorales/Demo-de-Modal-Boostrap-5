@@ -1,0 +1,57 @@
+button{
+    border: none;
+    padding: 0;
+
+}
+
+button img{
+    max-width: 100%;
+    width: 250px;
+}
+
+.song{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.img-portada-modal{
+    max-width: 100%;
+    width: 100px;
+}
+
+.img-open-modal{
+    max-width: 100%;
+    width: 180px; 
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos img{
+    max-width: 50px;
+}
+
+.modal-header{
+    display: block;
+    margin: 0 auto; 
+    border: none;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button a:hover{
+    color: white;
+    text-decoration: none;
+}
